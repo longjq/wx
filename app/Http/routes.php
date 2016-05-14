@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/jssdk', function () {
+    return view('jssdk');
+});
+
+
+
+Route::any('/wechat', 'WechatController@serve');
+Route::any('/upimg', 'MaterialController@uploadImg');

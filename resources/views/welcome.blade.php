@@ -38,7 +38,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Laravel 5----</div>
+                <p>{{ public_path() }}</p>
             </div>
         </div>
     </body>
